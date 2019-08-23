@@ -1,0 +1,14 @@
+\contentsline {table}{\numberline {3.1}{\ignorespaces Serial Frame\relax }}{25}{table.caption.6}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Arduino UNO Specifications\relax }}{33}{table.caption.8}
+\contentsline {table}{\numberline {4.1}{\ignorespaces The physical dimension of the robot\relax }}{47}{table.caption.20}
+\contentsline {table}{\numberline {4.2}{\ignorespaces The electrical properties of the robot\relax }}{48}{table.caption.21}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Pin Configurations of the interfacing of ArduinoUNO with L298N\relax }}{51}{table.caption.24}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Decision priorities of left wall follower algorithm\relax }}{52}{table.caption.25}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Decision made and the corresponding sensor values\relax }}{55}{table.caption.29}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Encoded binary values of the decisions made by the robot\relax }}{56}{table.caption.30}
+\contentsline {table}{\numberline {4.7}{\ignorespaces The representation of Bit String\relax }}{58}{table.caption.32}
+\contentsline {table}{\numberline {4.8}{\ignorespaces The decisions made at junctions\relax }}{59}{table.caption.34}
+\contentsline {table}{\numberline {4.9}{\ignorespaces The connection between HC-05 and arduino UNO for slave configuration\relax }}{60}{table.caption.35}
+\contentsline {table}{\numberline {4.10}{\ignorespaces The connection between HC-05 and arduino UNO for master configuration\relax }}{62}{table.caption.36}
+\contentsline {table}{\numberline {5.1}{\ignorespaces The decoded decisions sent to the second robot\relax }}{66}{table.caption.40}
+\contentsline {table}{\numberline {5.2}{\ignorespaces S,R,L,U Notations\relax }}{66}{table.caption.41}

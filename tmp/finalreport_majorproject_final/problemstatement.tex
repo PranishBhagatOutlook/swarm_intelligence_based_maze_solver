@@ -1,0 +1,35 @@
+\subsection{Problem Statement}
+Swarm bots is a promising technology in recent robotics. But the construction of these bots is
+complicated and tedious. We plan to design two swarm bots for solving a maze efficiently and in the
+shortest possible path. Using a single robot creates difficulty in analyzing the shortest path. Moreover,
+when multiple bots have to reach the same destination, it is faster with swarm-intelligence
+implementation rather than multiple bots solving the maze independently.\\
+The efficiency of the maze solving is boosted by the communication between the bots. The idea behind
+swarm intelligence is reflected when two or more bots communicate with each other. With the age old
+implementation of using single robots to solve a task, the process would not only be time consuming
+but also less effective. Using multiple communicating bots greatly reduces the workload required on a
+single bot and at the same time makes the entire process much more effective. For a task as simple as
+solving a maze, a single robot would take multiple wrong turns and reach dead ends until it finally
+reaches the target. When more than one robot is allowed to solve the maze in an integrated fashion, one
+robot can work on one task while the other can work on another. For example, one can detect the target
+while the other can decode the shortest path to it. With such communicating entity in place, the
+underlying complexity for each bot is greatly reduced.\\
+Maze solving alone is a much studied topic in robotics. The real world field of applications
+implementing maze solving is quite diverse. Scenarios such as emergency evacuation in disaster
+stricken areas require autonomous devices to traverse several obstacles to reach the destination which
+might or might not be known firsthand. Similarly, in hostage rescue situations where the lives of not
+only the hostages but also the rescuers matter equally, it is highly advisable to use such robots.
+Unknown path finding and localization also implement maze solving techniques and algorithms.
+Due to the lack of methods and tools, swarm robot designers cannot achieve the complexity required
+for the real world applications. This project is just the small simulation in real world. The developed
+swarm robot approach uses decentralized control strategies within the swarm of heterogeneous robots.
+The robot-to-robot and robot-to-environment interaction provides the task oriented, simple collective
+swarm behavior. We have decided to control the robot based on differential kinematics rather than
+forward and inverse kinematics. This is done to avoid slippage, collision and cost. DC motors will be
+used rather than stepper motors because of the speed limitation in the later one. IR sensors will be used
+to detect the obstacles in the maze where the information received by these sensors will be used to
+calculate the shortest path to the destination. The destination will be initially unknown and a smoke
+sensor will be implemented to detect the target where a source of smoke will be placed. Arduino
+microcontroller will be the brain of the robot where bluetooth technology will be used to establish a
+communication link between the two robots. Hence, the advantages and application of swarm
+intelligence is aimed to be demonstrated through successful implementation of this project.

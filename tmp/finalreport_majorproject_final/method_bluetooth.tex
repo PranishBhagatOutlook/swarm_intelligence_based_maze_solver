@@ -1,0 +1,93 @@
+\subsection{Communication and Connection}
+The main goal of this project was to develop a robust system of communication between both
+robots for use in future projects. The communication scheme that was eventually chosen was Bluetooth, a proprietary wireless standard invented in 1994 by L.M. Ericsson.\\
+Bluetooth makes it very straight forward to establish a direct serial link between two robots,
+making it possible to avoid extra infrastructure related to the communication medium. Without any added infrastructure, it is possible to move the robot system from one location to
+another. Another distinct advantage is the Bluetooth enabled robot’s ability to communicate
+with any other Bluetooth technology, including printers, and wireless phones, to name a few.
+A major disadvantage of Bluetooth is its limited range of approximately 30 feet, as opposed
+to the 802.11x typical range of about 300 feet. While this was not an issue with the current
+project because of the small size of the task area, when working in larger arenas, Bluetooth
+type communication would require the robots to remain much closer together. However, it is
+quite possible to extend the range of the system by using robots to relay messages between
+one another.
+\subsubsection{Setting up a wireless connection between two Arduinos}
+Bluetooth works by having a slave and a master. The slave modules can not initiate a connection to another Bluetooth device, but can accept connections, the master can be be set to either master or slave mode, when in master mode the module can initiate a connection to other devices. 
+For the purpose of communication between the two arduinos, we need to configure one HC-05 as master and the other as slave. For this purpose, arduino IDE is used.
+\subsubsection*{Configuring the HC-05 as Slave}
+By default all HC05 modules are SLAVEs.\\
+Before connecting the HC05 module , we uploaded an empty sketch to Arduino. This bypasses the Boot loader of UNO $\&$ the Arduino is used as USB-UART converter.
+\begin{flushleft}
+void setup() \big\{ \big\}\\
+void loop() \big\{ \big\}\\
+\end{flushleft}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline 
+ ARDUINO     &   HC05\\
+ \hline
+Rx(pin0 )  &Rx\\
+\hline
+Tx (pin1) &   Tx\\
+\hline
++5v     & VCC\\
+\hline
+GND     & GND\\
+\hline
++3.3V  & KEY\\
+\hline
+\end{tabular}
+\caption{The connection between HC-05 and arduino UNO for slave configuration}
+\end{center}
+\end{table}
+\justify After uploading this empty sketch,USB power was removed from Arduino $\&$ the following connections were done with HC05 Slave as shown in the above table\\
+The USB cable power to Arduino was provided and subsequently, the HC05 module enters the Command mode with Baud Rate 38400.
+By opening the Serial Monitor of Arduino, the HC-05 can be configured as slave.\\
+The ROLE of the module can be known by typing  AT+ROLE?\\
+The following AT command setups the HC-05 module as a slave.
+\begin{equation}
+AT+ROLE=0
+\end{equation}
+\justify Here are some screenshots of the Serial Monitor Window displaying the slave module setup.
+%-------screenshots-----------------------------
+\newpage 
+\subsubsection*{MASTER Module setup}
+The bluetooth module HC-05 can be provided the role of master in a similar way as the slave module setup i.e. Using AT commands.\\
+Before connecting the HC05 module , we uploaded an empty sketch to Arduino in a similar fashion as done for the slave module setup. 
+\begin{flushleft}
+void setup() \big\{
+  \big\}\\
+void loop() \big\{
+\big\}
+\end{flushleft}
+\justify The connections were as similar as the slave module setup as tabulated below:
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline 
+ ARDUINO     &   HC05\\
+ \hline
+Rx(pin0 )  &Rx\\
+\hline
+Tx (pin1) &   Tx\\
+\hline
++5v     & VCC\\
+\hline
+GND     & GND\\
+\hline
++3.3V  & KEY\\
+\hline
+\end{tabular}
+\caption{The connection between HC-05 and arduino UNO for master configuration}
+\end{center}
+\end{table}
+\justify The following AT command setups the HC-05 module as a master.
+\begin{equation}
+AT+ROLE=1
+\end{equation}
+\justify And now to actually connect to the SLAVE switch off both the modules. We removed the KEY connection from master and the module was reset by removing the power $\&$ connecting back.\\
+On powering back the MASTER ,the Slave gets paired with it automatically which can be verified by the LEDs on board as the LEDs of both the modules start blinking at the rate of a blink every two seconds. The paired devices are remembered even after disconnecting power.\\
+Now these two modules replaced the physical serial connection of the project.\\
+Bluetooth networks (commonly referred to as piconets) use a master/slave model to control when and where devices can send data. In this model, a single master device can only be connected to up to one other slave device. Any slave device in the piconet can only be connected to a single master.\\
+The master coordinates communication throughout the piconet. It can send data to the slave and request data from it as well. Slave is only allowed to transmit to and receive from the master.\\

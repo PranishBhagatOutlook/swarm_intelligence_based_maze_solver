@@ -1,0 +1,70 @@
+\section{LITERATURE REVIEW}
+While solving a maze using swarm intelligence is something that has not been
+researched much, swarm intelligence and maze solving separately are not new topics
+entirely.\\
+Maze solving robots are more generally known as “Micromouse” and various models
+of such robots implementing a variety of algorithms have been developed till date.
+One of the first versions was developed by the University of East London. This
+version of Micromouse\cite{micromouse} was developed by Michael Gims, Sonja Lenz and Dirk Becker
+from University of East London in year 1999. The design of the mobile robot is quite
+compact, but there is some improvement on the wiring. The algorithm applied is
+\textbf{Wall Following Algorithm}. No past work has been done by the university
+students in this particular field.\\
+In the last two decades, theoretical research on multi-robot systems has been fueled by technological advances that now allow building relatively cheap small robots. An early categorization of multi-robot systems is given by Dudek et al\cite{second}, who identified swarm size, communication range, communication topology, communication bandwidth, swarm reconfigurability, swarm unit processing ability and swarm composition as taxonomy axes to classify natural or engineered multiagent systems.\cite{third}\\
+The fundamental notion of cooperation between robots plays a central role in determining whether a multirobot system performs better than equivalent single-robot systems, and as such has been discussed in a number of exist-ing surveys. For example, cooperation is the central topic in\cite{fourth}, where swarm robotics systems are analyzed in terms of group architecture of the swarm (indicating with this term properties such as centralization versus decentralization,homogeneity versus heterogeneity, direct or indirect communication between agents, and how agents model each other), interference problems due to sharing of common resources, origin of cooperation (with interesting examples of how cooperation can be achieved implicitly even if each agent acts to maximize its individual utility), and learning mechanisms (with focus on reinforcement learning and genetic algorithms); in addition, a number of studies are grouped under the category of geometric problems, such as multiple-robot path planning and formation and marching problems. Iocchi et al.\cite{sixth}used cooperation as the first level of a multilevel characterization of robot swarms; cooperative systems are then further differentiated at the knowledge level, where systems with robots aware of the existence of other robots are distinguished from systems where each robot acts as if it was alone. The lower levels of the proposed taxonomy are the coordination level, describing how the actions of each robot take into ac-count the actions of other robots, and the organization level, which determines whether decisions are taken in a centralized or distributed way; it is interesting to note that a centralized system may be compatible with swarm intelligence principles: more precisely, systems defined as weakly centralized, where one of the robots temporarily assumes the role of leader, can exhibit the desired property of fault tolerance provided that suitable mechanisms are in place to assign the leadership role.\\
+While early papers provided characterization of swarm robotics systems mainly as an analysis tool to encourage further research and give guidance for the design of new systems, with the increasing number of published studies describing actual implementations of robot swarms, newer surveys have been able to propose taxonomies where each category is represented by several examples of existing works. An extensive review of the state of the art in the mid 2000s is provided in A review of studies in swarm robotics, TurkishJournal of Electrical Engineering\cite{seventh}, where existing works are categorized based on analytical modeling approaches, design of individual robot behavior, type of interactions between robots, and problems being addressed by a robotic swarm. Gazi and Fida\cite{eighth} focused on the aspect of controlling robot movement, dividing existing works based on how the robot dynamics is modeled (i.e. how control inputs map to position variations) and how robot controllers are engineered; in addition, a further classification is done on the problem dimension. Previous works have been classified on the problem dimension also in other surveys; Mohanand Ponnambalam\cite{eleven} analyzed various research domains in swarm robotics,however their review does not provide a clear categorization of the state of the art, mixing a classification of some studies in the problem dimension with a description of how other studies differ on aspects such as biological inspiration,communication between robots, control approach and learning.\\
+A comprehensive survey recently published is the work by Brambilla et al.\cite{twelve}, who proposed two taxonomies for swarm robotics studies: methods and collective behaviors. The first taxonomy includes design methods, differentiated in behavior-based and automatic methods, and analysis methods, i.e. techniques to study the performance of a swarm in executing a given task; analysis methods are divided in microscopic models, macroscopic models and real-robot analysis.The second taxonomy is based on the concept of collective behaviors, i.e. behaviors of a swarm of robots considered as a whole; the main categories identified by the authors under this taxonomy are spatially organizing behaviors, navigation behaviors and collective decision making.\\
+Barca and Sekercioglu\cite{thirteen} analyzed past research by identifying a series of challenges faced by swarm robotics systems and describing how each of these challenges has been addressed by existing studies. Challenges are grouped under five categories: selecting appropriate communication and control schemes,incorporating self-organization, scalability and robustness properties, devising mechanisms to support goal-oriented formations, control and connectivity, implementing functions that enable robots to interact efficiently with the environment, and addressing problems related to energy consumption. The authors outlined a number of issues that need to be tackled to overcome these challenges,and observed how existing works typically focus on only a subset of these issues,suggesting that in order to implement successfully a swarm robotics system in real-world applications a larger set of issues should be tackled simultaneously.In this review, the problem dimension is used as main taxonomy axis, thus grouping past works according to the collective task being addressed. For each of the most studied tasks, first the main high-level methods employed in past studies are described, then task-specific categories are identified and a more detailed description of distributed algorithms is provided for a representative set of existing works in each category, and finally mathematical models to analyze and predict swarm behavior, and methods and metrics to evaluate swarm-level performance are reviewed. Due to similarities and analogies between different collective tasks, multiple equally valid categorizations can and have been proposed in past reviews under this taxonomy, and many works can be put in more than one category; in this study, partially different categories are identified compared to existing reviews, further categorizations within each task are proposed,and differences, similarities and relationships between tasks are explained.
+In 2004, Quentin Chatelais, 
+Horatiu Vultur and 
+Emmanouil Kanellis of Aalborg University designed a maze solving autonomous robot. In their work, they focused on various topics such localization, mapping and path planning. In this project, much of this will not be implemented. \\
+In 2012, Ibrahim Elshamarka and Abu Bakar Sayuti Saman of Universiti Teknologi PETRONAS designed a robot for maze-solving using Flood-Fill Algorithm. There are four main steps in the algorithm: Mapping, Flooding, Updating and Turning. The maze was divided into cells of equal size for the mapping of the region. Using suitable distance sensors, the map was updated with the information about the walls. \\
+In terms of swarm intelligence, researches are still ongoing with recent developments
+in this field. A combined research by various professors from different universities studies the architecture, protocols and applications of robot swarm communication.
+This communication is built by constructing a wireless mesh network where one or
+more robots get connected to nearby mesh router and access the remote server.
+Combination of these two concepts have been implemented by students of Harvard
+University. In this work, the robots traverse the map using wall following algorithm
+and special pheromones are used by the bots to communicate with one another.
+Another research by professors of University of Cincinnati explore various
+algorithms for maze explorations for multi-agent systems using autonomous robots.
+Another paper by Thomas Campbell of the Institute of Engineering at Murray State
+Engineering studies the effect the maze-robotic size has on maze solving. He discusses
+various algorithms for various condition and criteria between two robots such as no
+communication between bots or bots with limited sensing range.
+A research by The University of Georgia\cite{odin} studies how Bluetooth can be used for
+coordinated robotic search. This paper talks about the Honeybee problem
+addressed in this project where a “guide” robot is used to lead a “blind” robot
+towards a specific target.\\
+In 2012 a technical report by Hazem Ahmed and Janice Glasgow of Queen's University reports the concepts, models and applications of swarm intelligence. Initially garnering inspiration from a colony of ants and their behavior towards a group of ants, swarm intelligence was brought into development. Similarly, the birds flocking behavior was also taken into consideration. In time, the various applications of swarm intelligence were recognized and put into development.\\
+During the research for the algorithm to be used for solving the maze by the first bot, several algorithms were put forward for discussion. Two of the algorithms are listed below viz. the A* algorithm and the Breadth First Search algorithm.
+\subsection{A* algorithm}
+A* uses a best-first search and finds a least-cost path from a given initial node to one
+goal node (out of one or more possible goals). As A* traverses the graph, it builds up
+a tree of partial paths. The leaves of this tree (called the open set or fringe) are stored
+in a priority queue that orders the leaf nodes by a cost function, which combines a
+heuristic estimate of the cost to reach a goal and the distance traveled from the initial
+node. Specifically, the cost function is\\
+\begin{equation}
+                                                                         		f(n)=g(n)+h(n) 
+                                                                      \end{equation}
+                                                                       \label{eq:Force} 		                                        
+\justify where,\\
+f(n) - The cost function;\\
+g(n) - is the known cost of getting from the initial node to n;\\
+h(n) - is a heuristic estimate of the cost to get from n to any goal node.
+\subsection{Breadth First Search}
+Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph
+data structures. It starts at the tree root(or some arbitrary node of a graph, sometimes referred to as a ’search key’ and explores the neighbor nodes first, before moving
+to the next level neighbors. Breadth-first search assigns two values to each vertex vv:
+\begin{enumerate}
+\item A distance, giving the minimum number of edges in any path from the source
+vertex to vertex vv.
+\item The predecessor vertex of vv along some shortest path from the source vertex.
+The source vertex’s predecessor is some special value, such as null, indicating
+that it has no predecessor .If there is no path from the source vertex to vertex vv,
+then vv’s distance is infinite and its predecessor has the same special value as
+the source’s predecessor. This algorithm was used to find path between a start
+position and end.
+\end{enumerate}
+

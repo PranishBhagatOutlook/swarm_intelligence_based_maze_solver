@@ -1,0 +1,44 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: final_report_final.aux
+The style file: IEEEtrans.bst
+Database file #1: final_reference.bib
+Repeated entry---line 123 of file final_reference.bib
+ :  @online{bluetooth2
+ :                    ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 144 of file final_reference.bib
+ :  
+ :  year  = { 2016},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtranS.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Sorting version - not for normal IEEE work.
+Too many commas in name 1 of "G. Dudek, M. Jenkin, E. Milios, D. Wilkes" for entry second
+while executing---line 2589 of file IEEEtrans.bst
+Name 1 in "G. Dudek, M. R. Jenkin, E. Milios, D. Wilkes," has a comma at the end for entry third
+while executing---line 2589 of file IEEEtrans.bst
+Too many commas in name 1 of "G. Dudek, M. R. Jenkin, E. Milios, D. Wilkes," for entry third
+while executing---line 2589 of file IEEEtrans.bst
+Too many commas in name 1 of "M. Brambilla, E. Ferrante, M. Birattari, M. Dorigo" for entry twelve
+while executing---line 2589 of file IEEEtrans.bst
+Name 1 in "D.H. Barnhard, J.T. McClain, B.J. Wimpey, and W.D. Potter" has a comma at the end for entry odin
+while executing---line 2589 of file IEEEtrans.bst
+Warning--to sort, need author or key in bluetooth
+Warning--to sort, need author or key in bluetooth2
+Warning--to sort, need author or key in arduino
+Warning--to sort, need author or key in fc51
+Name 1 in "D.H. Barnhard, J.T. McClain, B.J. Wimpey, and W.D. Potter" has a comma at the end for entry odin
+while executing---line 2601 of file IEEEtrans.bst
+Warning--empty year in odin
+Too many commas in name 1 of "G. Dudek, M. Jenkin, E. Milios, D. Wilkes" for entry second
+while executing---line 2601 of file IEEEtrans.bst
+Name 1 in "G. Dudek, M. R. Jenkin, E. Milios, D. Wilkes," has a comma at the end for entry third
+while executing---line 2601 of file IEEEtrans.bst
+Too many commas in name 1 of "G. Dudek, M. R. Jenkin, E. Milios, D. Wilkes," for entry third
+while executing---line 2601 of file IEEEtrans.bst
+Too many commas in name 1 of "M. Brambilla, E. Ferrante, M. Birattari, M. Dorigo" for entry twelve
+while executing---line 2601 of file IEEEtrans.bst
+
+Done.
+(There were 12 error messages)

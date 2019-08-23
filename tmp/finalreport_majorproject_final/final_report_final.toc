@@ -1,0 +1,75 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Motivation}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Scope of Work}{7}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Objectives}{7}{subsection.1.5}
+\contentsline {section}{\numberline {2}LITERATURE REVIEW}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}A* algorithm}{12}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Breadth First Search}{12}{subsection.2.2}
+\contentsline {section}{\numberline {3}THEORETICAL BACKGROUND}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Swarm Robotics}{13}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Design of Swarm Robots}{15}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Swarm Intelligence}{15}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Advantages of Swarm Robotics}{17}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Open Issues/Demerits}{18}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Bluetooth}{18}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Bluetooth Implementation}{19}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Communication and connection}{19}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Bluetooth Architecture}{20}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Bluetooth Topology}{20}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}RF and Baseband}{20}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Packet Format}{22}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Physical Links}{23}{subsubsection.3.2.7}
+\contentsline {subsection}{\numberline {3.3}Serial Communication}{24}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Baud Rate}{24}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Synchronization bits}{25}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Parity Bits}{25}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Microcontroller}{25}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Embedded Design}{26}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Programming Environment}{27}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Types of microcontrollers}{27}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}Input And Output}{28}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.5}Block Diagram}{28}{subsubsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.6}Arduino UNO}{32}{subsubsection.3.4.6}
+\contentsline {subsection}{\numberline {3.5} FC -51: InfraRed Sensor}{32}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}InfraRed Transmitter}{34}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}InfraRed Receiver}{35}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Working Principle }{35}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Obstacle Sensing Circuit or IR Sensor Circuit}{36}{subsubsection.3.5.4}
+\contentsline {subsection}{\numberline {3.6}MQ-2: SMOKE SENSOR}{39}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Structure of MQ-2 Gas Sensor}{40}{subsubsection.3.6.1}
+\contentsline {section}{\numberline {4}METHODOLOGY}{42}{section.4}
+\contentsline {subsection}{\numberline {4.1}System Architecture}{42}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Maze Structure}{44}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Configuration of Robots}{46}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}First Robot}{48}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Second Robot}{49}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Interfacing Arduino UNO with L298N Dual H-Bridge motor controller}{50}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Maze Traverse}{52}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Left wall following algorithm}{52}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Algorithm Flowchart}{53}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Implementation}{53}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Payload generation}{55}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.5}Decoding}{58}{subsubsection.4.5.5}
+\contentsline {subsection}{\numberline {4.6}Communication and Connection}{59}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Setting up a wireless connection between two Arduinos}{60}{subsubsection.4.6.1}
+\contentsline {section}{\numberline {5}RESULT}{64}{section.5}
+\contentsline {subsection}{\numberline {5.1}Path traversal by the first robot}{64}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Target Detection}{64}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Bluetooth Communication}{65}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Path traversal by the second robot}{66}{subsection.5.4}
+\contentsline {section}{\numberline {6}DISCUSSION}{68}{section.6}
+\contentsline {subsection}{\numberline {6.1}Algorithm implementation}{68}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Detection of the wall}{70}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Path traversal by the second robot}{72}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Bluetooth Communication}{75}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Motor Synchronization}{76}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Operation of Wheel}{77}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}IR Sensors}{77}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Power Source}{77}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}PWM Generation}{78}{subsection.6.9}
+\contentsline {section}{\numberline {7}CONCLUSION}{81}{section.7}
+\contentsline {subsection}{\numberline {7.1}Limitation}{81}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Future Enhancement}{81}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Recommendations}{82}{subsection.7.3}
